@@ -1,0 +1,121 @@
+:root {
+    --main-text-color: #434455;
+    --headers-color: #2e2f42;
+    --footer-background-color: #2e2f42;
+    --logo-color: #4d5ae5;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--main-text-color);
+    background-color: #ffffff;
+}
+ul {
+    list-style-type: none;
+}
+.logo-link {
+    color:#2E2F42;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 800px;
+    line-height: 1.17;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+.logo-link > span {
+    color: #4D5AE5;
+}
+.menu-links .link {
+    color:#2E2F42;
+    text-decoration: none;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0,32px;
+}
+.address-item .item {
+    color: #434455;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+}
+.title {
+    color: #ffffff;
+    background-color: #2E2F42;
+    width: 1440px;
+    height: 600px;
+    font-size: 56px;
+    font-weight:700;
+    line-height: 60px;
+    letter-spacing: 1.12px;
+}
+.first-button:focus,
+.first-button:hover {
+    color: #ffffff;
+    background-color: #4D5AE5;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.64px;
+    display: inline-flex;
+    cursor: pointer;
+}
+h3 {
+    color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+}
+p {
+    color: #434455;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+}
+.title-one .title-two {
+    color: #2E2F42;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.1;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+}
+.title-two .image{
+    background: #F4F4FD;
+    width: 1440px;
+    height: 732px;
+    flex-shrink: 0;
+}
+.background {
+    background-color: #2E2F42;
+    width: 1440px;
+    height: 312px;
+    flex-shrink: 0;
+}
+.logo-link-two {
+    color:#4D5AE5;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 800px;
+    line-height: 1.17;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+.logo-link-two > span {
+    color: #F4F4FD;
+}
+
+.filtres-list {
+
+}
+.filter-button:hover,
+.filter-button:focus {
+    color:#4D5AE5;
+    background-color: #E7E9FC;
+    border: #E7E9FC;
+    font-family: inherit;
+    cursor: pointer;
+}
