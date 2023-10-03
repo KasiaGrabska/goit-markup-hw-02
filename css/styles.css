@@ -108,9 +108,6 @@ ul {
     letter-spacing: 0.02em;
     text-transform: capitalize;
 }
-.img-list .img {
-    list-style: none;
-}
 .section-four {
     background: #F4F4FD;
     flex-shrink: 0;
@@ -124,17 +121,18 @@ ul {
     letter-spacing: 0.02em;
     text-transform: capitalize;
 }
-.people-list {
-    list-style: none;
-}
-
-.person {
+.people {
     background-color: #FFFFFF;
 }
 
 .background {
     background-color: #2e2f42;
     flex-shrink: 0;
+}
+.second-paragraph {
+        line-height: 1.5;
+        color: #F4F4FD;
+        letter-spacing: 0.02em;
 }
 .logo-link {
     color:#4d5ae5;
