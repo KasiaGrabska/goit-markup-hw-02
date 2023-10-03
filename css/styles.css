@@ -25,10 +25,10 @@ ul {
 .logo-link > .span {
     color: #2e2f42;
 }
-.filtres-list {
+.list {
     list-style-type: none;
 }
-.filtres-list {
+.list {
     list-style: none;
 }
 .first-link {
@@ -44,18 +44,18 @@ ul {
     text-decoration: none;
     color: #404bbf;
 }
-.address-item {
+.address {
     font-style: normal;
 }
-.address-item .item {
+.item {
     color: #434455;
     text-decoration: none;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.address-item .item .link-style:hover {
-    text-decoration: none;
+.item:hover,
+.item:focus {
     color: #404bbf;
 }
 .first-section {
