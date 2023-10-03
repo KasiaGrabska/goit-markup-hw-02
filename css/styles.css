@@ -43,7 +43,6 @@ ul {
 .first-link:focus {
     text-decoration: none;
     color: #404bbf;
-    display: #404bbf;
 }
 .address-item {
     font-style: normal;
@@ -58,7 +57,6 @@ ul {
 .address-item .item .link-style:hover {
     text-decoration: none;
     color: #404bbf;
-    display: #404bbf;
 }
 .first-section {
     background-color: #2e2f42;
@@ -78,7 +76,6 @@ ul {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    display: inline-flex;
     cursor: pointer;
     font-family: 'Roboto', sans-serif;
 }
